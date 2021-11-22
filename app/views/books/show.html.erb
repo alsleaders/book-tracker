@@ -1,0 +1,12 @@
+<h6><%= link_to "Home", root_path %></h6>
+
+<h1><%= @book.title %></h1>
+
+<p><%= @book.author %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_book_path(@book) %></li>
+  <li><%= link_to "Destroy", book_path(@book),
+  method: :delete,
+  data: { confirm: "Did you get rid of a book?" } %></li>
+</ul>
