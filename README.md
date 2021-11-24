@@ -1,0 +1,1 @@
+This is a book tracker used to practice TDD development, as well as using a variety of Ruby Gems, including rspec for testing.
