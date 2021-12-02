@@ -13,18 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-body {
-    background: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(65, 65, 197);
-    margin: 5rem;
-}
-
-p {
-    color:rgb(190, 128, 35)
-}
-
-ul {
-    list-style-type: none;
-}
